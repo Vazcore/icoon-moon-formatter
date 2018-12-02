@@ -1,0 +1,91 @@
+
+  @import '../../assets/fonts.less';
+  @import '../../utilities/icons/icons-list.less';
+  
+  // Icons
+  //
+  // Style guide: content.icons
+  //
+  // Icons (DO NOT USE ICON CODE)
+  //
+  //
+  // Markup: icons.hbs
+  //
+  // .uil-icon-arrow-flat-right - arrow-flat-right 
+  // .uil-icon-tick-circle - tick-circle 
+  // .uil-icon-checkbox-unchecked - checkbox-unchecked 
+  // .uil-icon-checkbox-checked - checkbox-checked 
+  // .uil-icon-tick-circle-filled - tick-circle-filled 
+  // .uil-icon-alarm - alarm 
+  // .uil-icon-info-circle-filled - info-circle-filled 
+  // .uil-icon-close-circle-filled - close-circle-filled 
+  // .uil-icon-plus-circle-filled - plus-circle-filled 
+  // .uil-icon-close-circle - close-circle 
+  // .uil-icon-arrow-flat-right-filled - arrow-flat-right-filled 
+  // .uil-icon-plus-circle - plus-circle 
+
+  
+  @font-face {
+    font-family: 'uil-font-icons-regular';
+    src:
+      url('./icon/font-icons/fonts/uil-font-icons-regular.ttf?sk6p3c') format('truetype'),
+      url('./icon/font-icons/fonts/uil-font-icons-regular.woff?sk6p3c') format('woff'),
+      url('./icon/font-icons/fonts/uil-font-icons-regular.svg?sk6p3c#uil-font-icons-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="uil-icons"], [class*=" uil-icons"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'uil-font-icons-regular' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .uil-icons { 
+
+    &.uil-icon-arrow-flat-right {
+      .uil-icon-arrow-flat-right();
+    }
+    &.uil-icon-tick-circle {
+      .uil-icon-tick-circle();
+    }
+    &.uil-icon-checkbox-unchecked {
+      .uil-icon-checkbox-unchecked();
+    }
+    &.uil-icon-checkbox-checked {
+      .uil-icon-checkbox-checked();
+    }
+    &.uil-icon-tick-circle-filled {
+      .uil-icon-tick-circle-filled();
+    }
+    &.uil-icon-alarm {
+      .uil-icon-alarm();
+    }
+    &.uil-icon-info-circle-filled {
+      .uil-icon-info-circle-filled();
+    }
+    &.uil-icon-close-circle-filled {
+      .uil-icon-close-circle-filled();
+    }
+    &.uil-icon-plus-circle-filled {
+      .uil-icon-plus-circle-filled();
+    }
+    &.uil-icon-close-circle {
+      .uil-icon-close-circle();
+    }
+    &.uil-icon-arrow-flat-right-filled {
+      .uil-icon-arrow-flat-right-filled();
+    }
+    &.uil-icon-plus-circle {
+      .uil-icon-plus-circle();
+    } 
+  }
